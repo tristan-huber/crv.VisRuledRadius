@@ -10,12 +10,17 @@
       "ioValue": "__GEOMETRY_INPUT__"
     },
     {
+      "name": "NumRulings",
+      "ioValue": 50
+    },
+    {
       "name": "ThresholdRadius",
-      "ioValue": 10
+      "ioValue": 5
     },
     {
       "name": "RulingAxis(U,V,auto)",
-      "ioValue": 10
+      "ioValue": "auto",
+      "currentEquation": "auto"
     }
   ],
   "topLevel": true,
@@ -43,13 +48,17 @@
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
+          "name": "numRulings",
+          "ioValue": 50
+        },
+        {
           "name": "rulingAxis",
-          "ioValue": 10,
+          "ioValue": "auto",
           "currentEquation": "auto"
         },
         {
           "name": "thresholdRadius",
-          "ioValue": 10
+          "ioValue": 5
         }
       ],
       "interpreterVersion": 1,
@@ -58,32 +67,32 @@
     },
     {
       "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.26785714285714285,
+      "x": 0.0231,
+      "y": 0.14,
       "uniqueID": "id-9600",
       "name": "Face",
       "type": "geometry"
     },
     {
       "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.4494047619047619,
+      "x": 0.0231,
+      "y": 0.22400000000000003,
       "uniqueID": "id-9603",
       "name": "NumRulings",
       "type": "number"
     },
     {
       "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.6607142857142857,
+      "x": 0.0231,
+      "y": 0.30800000000000005,
       "uniqueID": "id-9606",
       "name": "ThresholdRadius",
       "type": "number"
     },
     {
       "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.753021978021978,
+      "x": 0.0231,
+      "y": 0.39200000000000007,
       "uniqueID": "id-9609",
       "name": "RulingAxis(U,V,auto)",
       "type": "string"
